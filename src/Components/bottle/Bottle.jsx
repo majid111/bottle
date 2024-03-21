@@ -8,7 +8,7 @@ const Bottle = ({ bottle,purchaseHandle }) => {
             <h3>Bottle Name: {name}</h3>
             <img src={img} alt="" />
             <p>Price: ${price}</p>
-            <button onClick={()=>purchaseHandle(name)}>Purchase</button>
+            <button onClick={()=>purchaseHandle(bottle)}>Purchase</button>
         </div>
     );
 };
