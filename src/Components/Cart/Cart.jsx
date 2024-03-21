@@ -5,7 +5,7 @@ const Cart = ({cart}) => {
             <h3>Cart: {cart.length}</h3>
                 <ul>
                     {
-                    cart.map(id=>{<li>{id.name}</li>})
+                    cart.map(id=><li>{id.name}</li>)
                     }
                 </ul>
         </div>
